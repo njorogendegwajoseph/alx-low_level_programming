@@ -2,7 +2,8 @@
 #include <unistd.h>
 /**
  * main-This is the entry point
- * Return _ Returns 1. Meaning success.
+ *
+ * Return - a  function that returns 1 Meaning success.
  */
 int main()
 {
