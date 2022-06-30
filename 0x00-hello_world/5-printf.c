@@ -1,5 +1,5 @@
 #include <stdio.h>
-i
+
 /**
  * main- The main function initiates the compiling process.
  *
