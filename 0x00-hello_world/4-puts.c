@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main is the starting point of compilation
+ * main will print the words in bracket
  * int means the expected value is an integer, a zero
- * return 0 means no return expected.
+ * return 0 means the execution ran well.
  */
 int main(void)
 {
