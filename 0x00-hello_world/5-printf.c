@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main- The main function initiates the coimpiling process, and printsi words in bracket.
+ * main- The main function initiates the compiling process.
  *
- * return function - returns 0 on succesful code.
+ * Return function - returns 0 on succesful code.
  */
 int main(void)
 {
