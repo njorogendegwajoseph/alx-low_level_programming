@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * Main- prints the words in bracket
- * return - returns zero on succesful coode
+ * Function main- The main function initiates the compiling process, and prints
+ * prints words in brackets, 
+ * return function - returns zero on succesful coode
  */
 int main(void)
-
 {
-		printf("with proper grammar, but the outcome is a piece of art,\n");
+		printf("With proper grammarbut the outcome is a piece of art,");
 		return (0);
-
 }
