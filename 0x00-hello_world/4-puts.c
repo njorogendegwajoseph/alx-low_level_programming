@@ -1,13 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - This is the main function
- * Description - This functions sets the starting point of compliling.
- * return - This is the return fuction
- * Description - Thsi function returns 0 on succesful run.
+ * main - Entry point
+ *
+ * return - Always 0 success
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multingual puzzle");
 	return (0);
-} 
+}
