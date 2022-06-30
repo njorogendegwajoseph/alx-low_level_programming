@@ -3,7 +3,7 @@
 /**
  * main- The main function initiates the compiling process.
  *
- * Return function - returns 0 on succesful code.
+ * return - returns (0) on succesful code.
  */
 int main(void)
 {

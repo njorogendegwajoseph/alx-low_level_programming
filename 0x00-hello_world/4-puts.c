@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point and outputs.
+ * main - This is a function
+ * Description - It marks the beginning of the program
  *
- * return - Always 0 (success)
+ * return - This is a function
+ * Description - Thsi will return 0 when code runs succesfully.
  */
 int main(void)
 {
