@@ -9,17 +9,15 @@
  */
 
 int main(void)
+{int i = 97;
+while (i < 123)
 {
-	char ch = 'a';
-
-	while (ch <= 'z')
-	{
-		if (ch != 'e' && ch != 'q');
-		{
-			putchar(ch);
-		}
-		ch++;
-	}
-	putchar('\n');
-	return (0);
+if (i != 101 && i != 113)
+putchar(i);
 }
+i++;
+}
+putchar(10);
+return (0);
+}
+
