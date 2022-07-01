@@ -7,14 +7,15 @@
  * return - this will rturn 0 when succesful
  */
 
-int main(0)
+int main(void)
 {
-	char ch;
-
-	for  (ch = 'z'; ch >= 'a'; ch++);
-	{
-		putchar(ch);
-	}
-	putchar('\n');
-	return (0);
+int i = 122;
+while (i > 96)
+{
+putchar(i);
+i--;
 }
+putchar(10);
+return (0);
+}
+
