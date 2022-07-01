@@ -9,11 +9,17 @@
 int main(void)
 {
 	char ch;
+	int i;
 
-	for (ch = 'a';  ch <= 'z'; ch++)
+	ch = 97;
+	i = 0;
+	while (i < 26)
 		{
 			ptchar(ch);
+			ch++;
+			i++;
+
 		}
-		putchar('\n');
+		putchar(10);
 		return (0);
 }
