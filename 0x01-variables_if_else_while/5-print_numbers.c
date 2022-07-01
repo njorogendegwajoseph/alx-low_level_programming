@@ -6,7 +6,7 @@
  *
  * return - this will return 0 upon success.
  */
-int main (0)
+int main (void)
 {
 int i;
 i = 48;
