@@ -28,3 +28,12 @@ if (i < 55 || j < 56 || k < 57)
 putchar(44);
 putchar(32);
 }
+k++;
+}
+j++;
+}
+i++;
+}
+putchar(10);
+return (0);
+}
