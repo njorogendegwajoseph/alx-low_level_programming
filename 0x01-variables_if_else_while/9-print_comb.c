@@ -5,17 +5,20 @@
  * return - this will return 0 when succesful
  */
 
-int main(0)
+int main(void)
 {
-	int n;
-
-	for (n = 48; n < 58; n++);
-		putchar(n);
-		if (n != 57);
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		putchar('\n');
-		return (0);
+int i;
+i = 48;
+while (i < 58)
+{
+putchar(i)
+if (i != 57)
+{
+putchar(44);
+putchar(32);
+}
+i++;
+}
+putchar(10);
+return (0);
 }
