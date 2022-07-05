@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Computes the actual value of an integer
  * returns 0 when succesful
