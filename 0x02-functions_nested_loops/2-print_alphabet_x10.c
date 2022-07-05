@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10- this prints the alphabets ten times
+ * print_alphabet_x10 - this prints the alphabets ten times
  *
  * return 0 when succesful
  *
@@ -14,7 +14,7 @@ int i;
 i = 0;
 while (i < 10)
 {
-ch  'a';
+ch = 'a';
 while (ch <= 'z');
 {
 _putchar(ch);
