@@ -2,7 +2,7 @@
 /**
  * main - This is the initializing point of the program
  *
- * return 0 when succesfful.
+ * return: 0 when succesfful.
  */
 
 int main(void)
