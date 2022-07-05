@@ -1,7 +1,7 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints the sign of a number
+ * print_sign - prints the sign of a number
  *
  * return 1 i and prints + when greater than 0,
  * returns 0 when number is 0
