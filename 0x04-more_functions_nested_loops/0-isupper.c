@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
 * _intisupper: checks if the character is upper or lower cas
 * Return: This returns 0 when lowercase and 1 when upprcase.
