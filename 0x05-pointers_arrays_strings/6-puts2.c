@@ -4,7 +4,7 @@
  * @str- string to be printed
  * return 0;
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int = 0;
 
