@@ -8,11 +8,12 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * write your code.
-	 * You are not allowed to use a
-	 * not modify p
-	 * only one statement.
-	 * Dont code anything else apart from this code.
+	 * write your line of code here...
+	 * Remember:
+	 *  - you are not allowed to use a
+	 *  - you are not allowed allowed to modify p
+	 *  - only one statement
+	 *  -you are not allowed to code anythingelse than this line of code
 	 */
 	p[5] = 98;
 	/*...so that this prints 98\n */
