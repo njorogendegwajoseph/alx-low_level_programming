@@ -1,4 +1,4 @@
-#includde "main.h"
+#include "main.h"
 /**
  * string_toupper - chchange lowerscase to upper case
  * @p string will be modified.
