@@ -7,28 +7,20 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int size1 = 0, size2 = 0;
 
-	i = 0;
-
-	j = 0;
-
-	while (*(dest + i) != '\0')
+	while (*(dest + size1) != '\0')
 	{
-		i++;
-		j++;
-
+		size1++;
 	}
 
-	i = 0;
-
-	while (*(src + i) != *(src + n))
+	while(size2 < n)
 	{
-		dest[j] =src[i];
-		i++;
-		j++
+		*(dest + size1) = *(src + size2);
+		if (*(src + size2) == '\0')
+			break;
+		size1++;
+		size2++;
 	}
-	dest[j] = '\0';
-
-	return (0);
+	return (dest);
 }
