@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void)
 {
 	int n;
@@ -9,12 +8,14 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * Thsis is where you include your code.
-	 * A bunch of rules on what
-	 * to include and what not to.
+	 * write your code.
+	 * You are not allowed to use a
+	 * not modify p
+	 * only one statement.
+	 * Dont code anything else apart from this code.
 	 */
 	p[5] = 98;
-	/*..to enable printing of 98*/
+	/*...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
