@@ -9,7 +9,7 @@
 
 int evaluate_num(int num, int iterator)
 {
-	if (iterator == num -1)
+	if (iterator == num - 1)
 	{
 		return (1);
 	}
@@ -22,7 +22,7 @@ int evaluate_num(int num, int iterator)
 	{
 		return (evaluate_num(num, iterator + 1));
 	}
-	return(0);
+	return (0);
 }
 
 int is_prime_number(int num)
@@ -38,5 +38,5 @@ int is_prime_number(int num)
 	{
 		return (1);
 	}
-	return(evaluate_num(num, iterator));
+	return (evaluate_num(num, iterator));
 }
