@@ -13,13 +13,13 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	for (Arg = 0; arg < ac; arg++)
+	for (arg = 0; arg < ac; arg++)
 	{
 		for (byte = 0; av[arg][byte]; byte++)
 			size++;
 	}
 	
-	str = malloc(sizeof(char) * size + 1;
+	str = malloc(sizeof(char) * size + 1);
 
 	if (str == NULL)
 		return (NULL);
