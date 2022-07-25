@@ -3,9 +3,9 @@
 #include <stdlib.h>
 /**
  * create array - this one creates an array of chars and initialize
- *  	with a specific char.
- *  	@size - the size of the array to be initialized.
- *  @c - the specific char to be initialized with.
+ * with a specific char.
+ * @size - the size of the array to be initialized.
+ * @c - the specific char to be initialized with.
  *  Return  - if the function fails r the oterwise retun 0.
  */
 
