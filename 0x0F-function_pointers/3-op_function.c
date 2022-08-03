@@ -53,7 +53,7 @@ int op_mul(int a, int b)
 }
 
 /**
-* op_mod - Returns the remainder.
+* op_mod - Returns the remaindercd.
 * @a: The first operant
 * @b: The second operant.
 *
