@@ -16,7 +16,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(nums, n);
 
-	for (index =0; index < n; index++;)
+	for (index = 0; index < n; index++;)
 		sum += va_args(nums, int);
 
 		va_end(nums);
