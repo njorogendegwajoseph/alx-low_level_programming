@@ -11,7 +11,8 @@
 */
 
 #include <stdlib.h>
-
+#include <stdio.h>
+#include <string.h>
 /**
 * struct lists_h - singly linked lits.
 * @str: string: mallocked.
