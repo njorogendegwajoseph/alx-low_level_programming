@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 
 /**
 * print-lists: prints the elements of a list+t list.
