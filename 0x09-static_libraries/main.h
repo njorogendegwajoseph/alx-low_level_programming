@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 #ifndef                                                                                                                                                
+=======
+#ifndef MAIN_H
+#define MAIN_H
+
+
+int _putchar(char c);
+>>>>>>> 192501aef7312393bd69db4c093d309fd0c41e18
 
 #define                                                                                                                                                
 
@@ -65,3 +73,9 @@ void print_diagsums(int *a, int size);
 #endif                                                                                                                                                 
 
 
+<<<<<<< HEAD
+=======
+char *_strstr(char *haystack, char *needle);
+
+#endif
+>>>>>>> 192501aef7312393bd69db4c093d309fd0c41e18
