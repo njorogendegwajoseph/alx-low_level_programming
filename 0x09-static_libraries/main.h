@@ -44,6 +44,7 @@ char *rot13(char *);
 
 int _putchar(char);                                                                                                                                    
 
+<<<<<<< HEAD
 void print_number(int n);                                                                                                                              
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r);                                                                                           
@@ -79,3 +80,7 @@ char *_strstr(char *haystack, char *needle);
 
 #endif
 >>>>>>> 192501aef7312393bd69db4c093d309fd0c41e18
+=======
+char *_strstr(char *haystack, char *needle)
+#endif
+>>>>>>> bf0d89da9db39605f47299917e7ccc526f6f05c5
