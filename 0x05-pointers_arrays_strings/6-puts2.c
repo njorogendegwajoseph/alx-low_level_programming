@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2: will prisnt every other characteer of string 
+ * puts2: will print every other character of string 
  * @str- string to be printed
  * return 0;
  */
@@ -15,3 +15,4 @@ void puts2(char *str)
 	}
 	_putchar('\n');
 }
+//assuming we dont use the string header file then.

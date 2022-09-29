@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat: appends the sstring;
+ * _strcat: appends the string;
  * @dest- to be appended on.
  * @str- to append to.
  * return: dest.
